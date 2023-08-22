@@ -2,6 +2,7 @@ package net.fritz.magicka;
 
 import com.mojang.logging.LogUtils;
 import net.fritz.magicka.block.ModBlocks;
+import net.fritz.magicka.item.ModCreativeModeTabs;
 import net.fritz.magicka.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,10 +33,9 @@ public class MagickaThaumicReforged
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
