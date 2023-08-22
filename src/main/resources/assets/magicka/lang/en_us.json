@@ -1,8 +1,13 @@
 {
   "item.magicka.iron_wand_cap": "Iron Wand Cap",
+  "item.magicka.gold_wand_cap": "Gold Wand Cap",
+  "item.magicka.diamond_wand_cap": "Diamond Wand Cap",
+  "item.magicka.netherite_wand_cap": "Netherite Wand Cap",
+  "item.magicka.copper_wand_cap": "Copper Wand Cap",
 
 
   "block.magicka.magicka_infused_stone": "Magicka Infused Stone",
+  "block.magicka.magicka_stone_bricks": "Magicka Stone Bricks",
 
 
   "creativetab.magicka_tab": "Magicka - Thaumic Reforged"

@@ -17,6 +17,18 @@ public class ModItems {
     public static final RegistryObject<Item> IRON_WAND_CAP = ITEMS.register("iron_wand_cap",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> GOLD_WAND_CAP = ITEMS.register("gold_wand_cap",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMOND_WAND_CAP = ITEMS.register("diamond_wand_cap",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> NETHERITE_WAND_CAP = ITEMS.register("netherite_wand_cap",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> COPPER_WAND_CAP = ITEMS.register("copper_wand_cap",
+            () -> new Item(new Item.Properties()));
+
 
 
 
