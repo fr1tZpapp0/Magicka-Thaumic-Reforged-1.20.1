@@ -1,6 +1,7 @@
 package net.fritz.magicka;
 
 import com.mojang.logging.LogUtils;
+import net.fritz.magicka.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -31,7 +32,7 @@ public class MagickaThaumicReforged
         modEventBus.addListener(this::commonSetup);
 
 
-
+        ModItems.register(modEventBus);
 
 
         // Register ourselves for server and other game events we are interested in
