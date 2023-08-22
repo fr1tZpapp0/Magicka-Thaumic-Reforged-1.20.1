@@ -23,6 +23,8 @@ public static final RegistryObject<Block> MAGICKA_INFUSED_STONE = registerBlock(
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)));
 
 
+public static final RegistryObject<Block> MAGICKA_STONE_BRICKS = registerBlock("magicka_stone_bricks",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE_BRICKS)));
 
 
 private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

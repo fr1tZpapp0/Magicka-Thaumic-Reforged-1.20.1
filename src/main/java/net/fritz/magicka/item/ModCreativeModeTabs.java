@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.IRON_WAND_CAP.get());
 
                         pOutput.accept(ModBlocks.MAGICKA_INFUSED_STONE.get());
+                        pOutput.accept(ModBlocks.MAGICKA_STONE_BRICKS.get());
 
                     }).build());
 
