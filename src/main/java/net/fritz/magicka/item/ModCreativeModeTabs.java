@@ -19,6 +19,10 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.IRON_WAND_CAP.get()))
                     .title(Component.translatable("creativetab.magicka_tab")).displayItems((pParameters, pOutput) -> {
 
+                        pOutput.accept(ModItems.DIAMOND_NUGGET.get());
+                        pOutput.accept(ModItems.COPPER_NUGGET.get());
+                        pOutput.accept(ModItems.NETHERITE_NUGGET.get());
+
                         pOutput.accept(ModItems.IRON_WAND_CAP.get());
                         pOutput.accept(ModItems.GOLD_WAND_CAP.get());
                         pOutput.accept(ModItems.DIAMOND_WAND_CAP.get());
