@@ -4,12 +4,11 @@
   "key": {
     "X": {
       "item": "magicka:diamond_nugget"
-    },
-    "Y": []
+    }
   },
   "pattern": [
-    "X X X",
-    "X Y X"
+    "XXX",
+    "X X"
   ],
   "result": {
     "item": "magicka:diamond_wand_cap"

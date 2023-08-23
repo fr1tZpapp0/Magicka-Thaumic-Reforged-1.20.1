@@ -28,62 +28,67 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.COPPER_WAND_CAP.get())
-                .pattern("X X X")
-                .pattern("X Y X")
+                .pattern("XXX")
+                .pattern("X X")
                 .define('X', ModItems.COPPER_NUGGET.get())
-                .define('Y', Items.AIR)
-                .unlockedBy("has_copper_nugget", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.COPPER_NUGGET.get()).build()))
+                .unlockedBy("has_copper_nugget", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.COPPER_NUGGET.get()).build()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.IRON_WAND_CAP.get())
-                .pattern("X X X")
-                .pattern("X Y X")
+                .pattern("XXX")
+                .pattern("X X")
                 .define('X', Items.IRON_NUGGET)
-                .define('Y', Items.AIR)
-                .unlockedBy("has_iron_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(Items.IRON_NUGGET).build()))
+                .unlockedBy("has_iron_nugget", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.IRON_NUGGET).build()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.GOLD_WAND_CAP.get())
-                .pattern("X X X")
-                .pattern("X Y X")
+                .pattern("XXX")
+                .pattern("X X")
                 .define('X', Items.GOLD_NUGGET)
-                .define('Y', Items.AIR)
-                .unlockedBy("has_gold_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(Items.GOLD_NUGGET).build()))
+                .unlockedBy("has_gold_nugget", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GOLD_NUGGET).build()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DIAMOND_WAND_CAP.get())
-                .pattern("X X X")
-                .pattern("X Y X")
+                .pattern("XXX")
+                .pattern("X X")
                 .define('X', ModItems.DIAMOND_NUGGET.get())
-                .define('Y', Items.AIR)
-                .unlockedBy("has_diamond_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.DIAMOND_NUGGET.get()).build()))
+                .unlockedBy("has_diamond_nugget", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.DIAMOND_NUGGET.get()).build()))
                 .save(pWriter);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.NETHERITE_WAND_CAP.get())
-                .pattern("X X X")
-                .pattern("X Y X")
+                .pattern("XXX")
+                .pattern("X X")
                 .define('X', ModItems.NETHERITE_NUGGET.get())
-                .define('Y', Items.AIR)
-                .unlockedBy("has_netherite_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.NETHERITE_NUGGET.get()).build()))
+                .unlockedBy("has_netherite_nugget", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.NETHERITE_NUGGET.get()).build()))
                 .save(pWriter);
 
 
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.COPPER_NUGGET.get(), 9)
-                .requires(Items.COPPER_INGOT).unlockedBy("has_copper_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(Items.COPPER_INGOT).build()))
+                .requires(Items.COPPER_INGOT).unlockedBy("has_copper_ingot",
+                        inventoryTrigger(ItemPredicate.Builder.item().of(Items.COPPER_INGOT).build()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DIAMOND_NUGGET.get(), 9)
-                .requires(Items.COPPER_INGOT).unlockedBy("has_diamond", inventoryTrigger(ItemPredicate.Builder.item().of(Items.DIAMOND).build()))
+                .requires(Items.DIAMOND).unlockedBy("has_diamond",
+                        inventoryTrigger(ItemPredicate.Builder.item().of(Items.DIAMOND).build()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.NETHERITE_NUGGET.get(), 9)
-                .requires(Items.COPPER_INGOT).unlockedBy("has_netherite_ingot", inventoryTrigger(ItemPredicate.Builder.item().of(Items.NETHERITE_INGOT).build()))
+                .requires(Items.NETHERITE_INGOT).unlockedBy("has_netherite_ingot",
+                        inventoryTrigger(ItemPredicate.Builder.item().of(Items.NETHERITE_INGOT).build()))
                 .save(pWriter);
 
 
-        oreSmelting(pWriter, zincSmeltables, RecipeCategory.MISC, ModItems.ZINC.get(), 0.25f,250, "zinc");
-        oreBlasting(pWriter, zincSmeltables, RecipeCategory.MISC, ModItems.ZINC.get(), 0.25f,175, "zinc");
+        oreSmelting(pWriter, zincSmeltables, RecipeCategory.MISC, ModItems.ZINC.get(),
+                0.25f,250, "zinc");
+        oreBlasting(pWriter, zincSmeltables, RecipeCategory.MISC, ModItems.ZINC.get(),
+                0.25f,175, "zinc");
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients,

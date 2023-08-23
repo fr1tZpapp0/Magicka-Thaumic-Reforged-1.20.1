@@ -4,12 +4,11 @@
   "key": {
     "X": {
       "item": "minecraft:gold_nugget"
-    },
-    "Y": []
+    }
   },
   "pattern": [
-    "X X X",
-    "X Y X"
+    "XXX",
+    "X X"
   ],
   "result": {
     "item": "magicka:gold_wand_cap"
