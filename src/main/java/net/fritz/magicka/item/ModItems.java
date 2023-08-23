@@ -1,6 +1,7 @@
 package net.fritz.magicka.item;
 
 import net.fritz.magicka.MagickaThaumicReforged;
+import net.fritz.magicka.item.custom.FuelItem;
 import net.fritz.magicka.item.custom.MagickaTabletItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
@@ -59,7 +60,8 @@ public class ModItems {
     public static final RegistryObject<Item> ZOMBIE_BRAIN = ITEMS.register("zombie_brain",
             () -> new Item(new Item.Properties().food(ModFoodProperties.ZOMBIE_BRAIN)));
 
-
+    public static final RegistryObject<Item> ZIRCONIUM = ITEMS.register("zirconium",
+            () -> new FuelItem(new Item.Properties(), 200));
 
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus); }
 }

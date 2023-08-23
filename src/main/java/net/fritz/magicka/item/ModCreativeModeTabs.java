@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.magicka_tab")).displayItems((pParameters, pOutput) -> {
 
                         pOutput.accept(ModItems.ZINC.get());
+                        pOutput.accept(ModItems.ZIRCONIUM.get());
 
                         pOutput.accept(ModItems.DIAMOND_NUGGET.get());
                         pOutput.accept(ModItems.COPPER_NUGGET.get());
@@ -39,6 +40,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MAGICKA_TABLET.get());
 
                         pOutput.accept(ModItems.ZOMBIE_BRAIN.get());
+
+
+
 
                     }).build());
 

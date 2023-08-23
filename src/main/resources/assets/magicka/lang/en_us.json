@@ -6,6 +6,7 @@
   "item.magicka.copper_wand_cap": "Copper Wand Cap",
 
   "item.magicka.zinc": "Zinc",
+  "item.magicka.zirconium": "Zirconium",
 
 
   "item.magicka.crimson_blade": "Crimson Blade",
@@ -24,6 +25,6 @@
 
   "item.magicka.zombie_brain": "Zombie Brain",
 
-
+"tooltip.magicka.tablettooltip": "§o§5It Hums With A Strange Energy, Glowing Purple As Well",
   "creativetab.magicka_tab": "Magicka - Thaumic Reforged"
 }

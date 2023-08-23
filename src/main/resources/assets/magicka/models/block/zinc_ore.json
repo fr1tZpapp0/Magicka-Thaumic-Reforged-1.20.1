@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "magicka:block/zinc_ore"
-  }
-}

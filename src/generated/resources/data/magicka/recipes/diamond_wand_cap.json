@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "magicka:diamond_nugget"
+    },
+    "Y": []
+  },
+  "pattern": [
+    "X X X",
+    "X Y X"
+  ],
+  "result": {
+    "item": "magicka:diamond_wand_cap"
+  },
+  "show_notification": true
+}

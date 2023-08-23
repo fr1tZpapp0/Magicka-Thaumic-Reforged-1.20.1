@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 175,
+  "experience": 0.25,
+  "group": "zinc",
+  "ingredient": {
+    "item": "magicka:zinc_ore"
+  },
+  "result": "magicka:zinc"
+}
