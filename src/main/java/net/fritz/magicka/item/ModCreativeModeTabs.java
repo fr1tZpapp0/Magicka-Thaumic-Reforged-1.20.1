@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.MAGICKA_INFUSED_STONE.get());
                         pOutput.accept(ModBlocks.MAGICKA_STONE_BRICKS.get());
+                        pOutput.accept(ModBlocks.ZINC_ORE.get());
 
                     }).build());
 
