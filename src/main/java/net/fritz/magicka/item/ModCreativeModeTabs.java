@@ -35,6 +35,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.MAGICKA_STONE_BRICKS.get());
                         pOutput.accept(ModBlocks.ZINC_ORE.get());
 
+                        pOutput.accept(ModItems.CRIMSON_BLADE.get());
+                        pOutput.accept(ModItems.MAGICKA_TABLET.get());
+
+                        pOutput.accept(ModItems.ZOMBIE_BRAIN.get());
+
                     }).build());
 
 

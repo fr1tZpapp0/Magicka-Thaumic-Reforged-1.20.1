@@ -8,6 +8,10 @@
   "item.magicka.zinc": "Zinc",
 
 
+  "item.magicka.crimson_blade": "Crimson Blade",
+  "item.magicka.magicka_tablet": "Magicka Tablet",
+
+
   "item.magicka.diamond_nugget": "Diamond Nugget",
   "item.magicka.copper_nugget": "Copper Nugget",
   "item.magicka.netherite_nugget": "Netherite Nugget",
@@ -16,6 +20,9 @@
   "block.magicka.magicka_infused_stone": "Magicka Infused Stone",
   "block.magicka.magicka_stone_bricks": "Magicka Stone Bricks",
   "block.magicka.zinc_ore": "Zinc Ore",
+
+
+  "item.magicka.zombie_brain": "Zombie Brain",
 
 
   "creativetab.magicka_tab": "Magicka - Thaumic Reforged"

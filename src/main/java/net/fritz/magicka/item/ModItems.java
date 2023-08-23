@@ -1,7 +1,11 @@
 package net.fritz.magicka.item;
 
 import net.fritz.magicka.MagickaThaumicReforged;
+import net.fritz.magicka.item.custom.MagickaTabletItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -41,6 +45,20 @@ public class ModItems {
 
     public static final RegistryObject<Item> ZINC = ITEMS.register("zinc",
             () -> new Item(new Item.Properties()));
+
+
+    public static final RegistryObject<Item> CRIMSON_BLADE = ITEMS.register("crimson_blade",
+            () -> new SwordItem(ModTiers.CRIMSON, 3, 3, new Item.Properties()));
+
+
+    public static final RegistryObject<Item> MAGICKA_TABLET = ITEMS.register("magicka_tablet",
+            () -> new MagickaTabletItem(new Item.Properties().stacksTo(1)));
+
+
+
+    public static final RegistryObject<Item> ZOMBIE_BRAIN = ITEMS.register("zombie_brain",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.ZOMBIE_BRAIN)));
+
 
 
     public static void register(IEventBus eventBus) { ITEMS.register(eventBus); }
