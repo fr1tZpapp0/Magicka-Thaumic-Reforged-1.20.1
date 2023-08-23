@@ -32,7 +32,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ZOMBIE_BRAIN);
         simpleItem(ModItems.MAGICKA_TABLET);
         simpleItem(ModItems.ZIRCONIUM);
-
+        simpleItem(ModItems.MAGICKA_SHARD);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

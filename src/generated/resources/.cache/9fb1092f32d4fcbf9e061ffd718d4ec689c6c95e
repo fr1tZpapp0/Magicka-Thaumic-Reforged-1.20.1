@@ -1,4 +1,5 @@
-// 1.20.1	2023-08-23T14:15:29.5309204	Recipes
+// 1.20.1	2023-08-23T15:11:15.722259	Recipes
+8a5ca6476c40802fad120f6586e2060292358d4a data/magicka/advancements/recipes/building_blocks/magicka_stone_bricks.json
 8c2d91f8d42ccdaa2672751c922afcd378e3a375 data/magicka/advancements/recipes/misc/copper_nugget.json
 4700754f762bfcf6d1852ebaaf9091cef8565687 data/magicka/advancements/recipes/misc/copper_wand_cap.json
 8b52855a053f73aff44f32b40b00bdde4481c521 data/magicka/advancements/recipes/misc/diamond_nugget.json
@@ -15,6 +16,7 @@ b63e239f4d530fa7cc72f017558a4da289b4a327 data/magicka/recipes/diamond_nugget.jso
 991b90868316c28515534ecc4ab179f4a56604f1 data/magicka/recipes/diamond_wand_cap.json
 162b324854febafc51114e1830dace3225466dfe data/magicka/recipes/gold_wand_cap.json
 6777ae5c4d245520d308f6b9d179641e19445d20 data/magicka/recipes/iron_wand_cap.json
+0a49d3e5fd0f8a26d34cb4d1239007953c2e1502 data/magicka/recipes/magicka_stone_bricks.json
 17821a89fa951d92070d98c34894d12dc0f8f56e data/magicka/recipes/netherite_nugget.json
 b20aeb9e34f9407aa5795dfaf7c1f51d46f67f70 data/magicka/recipes/netherite_wand_cap.json
 7d01b58920438b207192202eb5c7d276f11df0f8 data/magicka/recipes/zinc_from_blasting_zinc_ore.json

@@ -3,6 +3,7 @@ package net.fritz.magicka.datagen;
 import net.fritz.magicka.MagickaThaumicReforged;
 import net.fritz.magicka.block.ModBlocks;
 import net.fritz.magicka.item.ModItems;
+import net.fritz.magicka.util.ModTags;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -11,6 +12,7 @@ import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -68,6 +70,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .save(pWriter);
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGICKA_STONE_BRICKS.get(), 8)
+                .pattern("XXX")
+                .pattern("XYX")
+                .pattern("XXX")
+                .define('Y', ModItems.MAGICKA_SHARD.get())
+                .define('X', Blocks.STONE_BRICKS)
+                .unlockedBy("has_magicka_shard", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.MAGICKA_SHARD.get()).build()))
+                .save(pWriter);
+
+
+
+
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.COPPER_NUGGET.get(), 9)
                 .requires(Items.COPPER_INGOT).unlockedBy("has_copper_ingot",
@@ -83,6 +98,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(Items.NETHERITE_INGOT).unlockedBy("has_netherite_ingot",
                         inventoryTrigger(ItemPredicate.Builder.item().of(Items.NETHERITE_INGOT).build()))
                 .save(pWriter);
+
+
+
 
 
         oreSmelting(pWriter, zincSmeltables, RecipeCategory.MISC, ModItems.ZINC.get(),

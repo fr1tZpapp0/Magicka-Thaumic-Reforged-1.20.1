@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.DIAMOND_WAND_CAP.get());
                         pOutput.accept(ModItems.NETHERITE_WAND_CAP.get());
                         pOutput.accept(ModItems.COPPER_WAND_CAP.get());
+                        pOutput.accept(ModItems.MAGICKA_SHARD.get());
 
                         pOutput.accept(ModBlocks.MAGICKA_INFUSED_STONE.get());
                         pOutput.accept(ModBlocks.MAGICKA_STONE_BRICKS.get());
