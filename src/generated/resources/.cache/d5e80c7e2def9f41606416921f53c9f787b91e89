@@ -1,10 +1,13 @@
-// 1.20.1	2023-08-23T03:14:03.8398402	Block States: magicka
+// 1.20.1	2023-08-23T22:18:38.0723096	Block States: magicka
+a49bdbe19617fcd4bf6ef255882f6e209814b8cd assets/magicka/blockstates/eldritch_stone.json
 5aa802475a24a00fdf2306a0513d871f4cd8ad4a assets/magicka/blockstates/magicka_infused_stone.json
 8f108a6ed100ee890fdd655e730b5d4bec8aaf0c assets/magicka/blockstates/magicka_stone_bricks.json
 d5e343e59e2d1cc7a8be3d9a0e727c55a84b53ae assets/magicka/blockstates/zinc_ore.json
+2039ac0475d481b532afe3f1fb9932ac35999e99 assets/magicka/models/block/eldritch_stone.json
 30c9815cf5868e35ef3f07ef31bbf69c5f1d7313 assets/magicka/models/block/magicka_infused_stone.json
 29e42d0d4cd7ec5abd06f3e37a56ffe48518d4f1 assets/magicka/models/block/magicka_stone_bricks.json
 dd95d6103f88a6be131b5351d5fa239c6d349b15 assets/magicka/models/block/zinc_ore.json
+3227f2d76598fe3b392216f17d31f5270303f5c1 assets/magicka/models/item/eldritch_stone.json
 c552b9d9f9f8cefe4f5d34371af3dee9ed9ff145 assets/magicka/models/item/magicka_infused_stone.json
 db5e39c945a708fc2e933c579b14f887b2f38f50 assets/magicka/models/item/magicka_stone_bricks.json
 c7c67024b27de05cf54d15f9780b0096df4a9ff7 assets/magicka/models/item/zinc_ore.json

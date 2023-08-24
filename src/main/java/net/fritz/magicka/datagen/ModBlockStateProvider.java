@@ -18,6 +18,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.MAGICKA_INFUSED_STONE);
         blockWithItem(ModBlocks.MAGICKA_STONE_BRICKS);
         blockWithItem(ModBlocks.ZINC_ORE);
+        blockWithItem(ModBlocks.ELDRITCH_STONE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

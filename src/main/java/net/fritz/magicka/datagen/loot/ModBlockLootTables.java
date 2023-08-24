@@ -18,6 +18,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(ModBlocks.MAGICKA_INFUSED_STONE.get());
         this.dropSelf(ModBlocks.MAGICKA_STONE_BRICKS.get());
+        this.dropSelf(ModBlocks.ELDRITCH_STONE.get());
 
         this.add(ModBlocks.ZINC_ORE.get(), block -> createOreDrop(ModBlocks.ZINC_ORE.get(), ModItems.ZINC.get()));
     }

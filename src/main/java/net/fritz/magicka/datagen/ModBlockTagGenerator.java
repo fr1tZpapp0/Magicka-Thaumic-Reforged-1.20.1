@@ -25,7 +25,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(
                 ModBlocks.ZINC_ORE.get(),
                 ModBlocks.MAGICKA_INFUSED_STONE.get(),
-                ModBlocks.MAGICKA_STONE_BRICKS.get()
+                ModBlocks.MAGICKA_STONE_BRICKS.get(),
+                ModBlocks.ELDRITCH_STONE.get()
         );
 
   this.tag(BlockTags.NEEDS_IRON_TOOL)
@@ -34,6 +35,12 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.MAGICKA_INFUSED_STONE.get(),
                 ModBlocks.MAGICKA_STONE_BRICKS.get()
         );
+
+  this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+          .add (
+             ModBlocks.ELDRITCH_STONE.get()
+          );
+
 
     }
 

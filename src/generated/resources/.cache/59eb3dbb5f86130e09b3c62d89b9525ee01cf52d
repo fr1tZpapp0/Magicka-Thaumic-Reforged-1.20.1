@@ -1,4 +1,5 @@
-// 1.20.1	2023-08-23T03:14:03.8438414	Loot Tables
+// 1.20.1	2023-08-23T22:18:38.0748101	Loot Tables
+dc378ce660f3130e91d23a4a91e97a8eb7ad0a85 data/magicka/loot_tables/blocks/eldritch_stone.json
 8e499d22ad4e3e448c3fd787e05dcf791e57e9ab data/magicka/loot_tables/blocks/magicka_infused_stone.json
 a1ce0f943e48aaa0b5848e24f48c70741245ec47 data/magicka/loot_tables/blocks/magicka_stone_bricks.json
 d9b1a4284aee21e58e5cb5903560bcf4a95efe60 data/magicka/loot_tables/blocks/zinc_ore.json
