@@ -1,5 +1,12 @@
-// 1.20.1	2023-08-23T22:18:38.0748101	Loot Tables
+// 1.20.1	2023-08-24T10:26:29.860168	Loot Tables
 dc378ce660f3130e91d23a4a91e97a8eb7ad0a85 data/magicka/loot_tables/blocks/eldritch_stone.json
-8e499d22ad4e3e448c3fd787e05dcf791e57e9ab data/magicka/loot_tables/blocks/magicka_infused_stone.json
+3050e94ba2d642f96b477f063f19a1f72aa02494 data/magicka/loot_tables/blocks/magicka_infused_stone.json
 a1ce0f943e48aaa0b5848e24f48c70741245ec47 data/magicka/loot_tables/blocks/magicka_stone_bricks.json
+17f0eba58d43e3eb7b41d2f5cafafbf927ecdd5f data/magicka/loot_tables/blocks/silverwood_leaves.json
+e737b4cedd1139c8d0d3358e8086a79a39891bcb data/magicka/loot_tables/blocks/silverwood_log.json
+ed66b00bcf12647b29fdcc3d5ff13175a166cb7d data/magicka/loot_tables/blocks/silverwood_planks.json
+8a3e3d7ca78d489f26d3e97a08df486a97e986cf data/magicka/loot_tables/blocks/silverwood_sapling.json
+71ba56b8b0aec43b3c079cf9d91d5574c6d75fc6 data/magicka/loot_tables/blocks/silverwood_wood.json
+67dcf7321ef1c6a7ffce94f65f2815fa443ad7ed data/magicka/loot_tables/blocks/stripped_silverwood_log.json
+4d1936da595b20e3275691fd61a6c97dc385ed13 data/magicka/loot_tables/blocks/stripped_silverwood_wood.json
 d9b1a4284aee21e58e5cb5903560bcf4a95efe60 data/magicka/loot_tables/blocks/zinc_ore.json

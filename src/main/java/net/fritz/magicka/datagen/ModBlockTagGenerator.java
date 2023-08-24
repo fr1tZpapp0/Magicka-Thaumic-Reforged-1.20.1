@@ -13,7 +13,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagGenerator extends BlockTagsProvider {
-    public ModBlockTagGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider,  @Nullable ExistingFileHelper existingFileHelper) {
+    public ModBlockTagGenerator(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider,
+                                @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, MagickaThaumicReforged.MODID, existingFileHelper);
     }
 
@@ -29,18 +30,41 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.ELDRITCH_STONE.get()
         );
 
-  this.tag(BlockTags.NEEDS_IRON_TOOL)
+        this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(
-                ModBlocks.ZINC_ORE.get(),
-                ModBlocks.MAGICKA_INFUSED_STONE.get(),
-                ModBlocks.MAGICKA_STONE_BRICKS.get()
-        );
+                        ModBlocks.SILVERWOOD_LOG.get(),
+                        ModBlocks.STRIPPED_SILVERWOOD_LOG.get(),
+                        ModBlocks.STRIPPED_SILVERWOOD_WOOD.get(),
+                        ModBlocks.SILVERWOOD_WOOD.get()
+                );
 
-  this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-          .add (
-             ModBlocks.ELDRITCH_STONE.get()
-          );
 
+      this.tag(BlockTags.NEEDS_IRON_TOOL)
+                    .add(
+                    ModBlocks.ZINC_ORE.get(),
+                    ModBlocks.MAGICKA_INFUSED_STONE.get(),
+                    ModBlocks.MAGICKA_STONE_BRICKS.get()
+            );
+
+      this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
+              .add (
+                 ModBlocks.ELDRITCH_STONE.get()
+              );
+
+
+      this.tag(BlockTags.LOGS_THAT_BURN)
+              .add(
+                      ModBlocks.SILVERWOOD_LOG.get(),
+                      ModBlocks.STRIPPED_SILVERWOOD_LOG.get(),
+                      ModBlocks.STRIPPED_SILVERWOOD_WOOD.get(),
+                      ModBlocks.SILVERWOOD_WOOD.get()
+              );
+
+
+        this.tag(BlockTags.PLANKS)
+                .add(
+                        ModBlocks.SILVERWOOD_PLANKS.get()
+                );
 
     }
 

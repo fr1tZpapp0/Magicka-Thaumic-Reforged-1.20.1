@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "magicka:block/stripped_silverwood_log",
+    "side": "magicka:block/stripped_silverwood_log"
+  }
+}

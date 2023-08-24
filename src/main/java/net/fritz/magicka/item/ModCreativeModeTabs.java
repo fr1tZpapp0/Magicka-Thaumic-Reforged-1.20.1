@@ -38,6 +38,14 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.ZINC_ORE.get());
                         pOutput.accept(ModBlocks.ELDRITCH_STONE.get());
 
+                        pOutput.accept(ModBlocks.SILVERWOOD_SAPLING.get());
+                        pOutput.accept(ModBlocks.SILVERWOOD_LEAVES.get());
+                        pOutput.accept(ModBlocks.SILVERWOOD_PLANKS.get());
+                        pOutput.accept(ModBlocks.SILVERWOOD_LOG.get());
+                        pOutput.accept(ModBlocks.SILVERWOOD_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_SILVERWOOD_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_SILVERWOOD_LOG.get());
+
                         pOutput.accept(ModItems.CRIMSON_BLADE.get());
                         pOutput.accept(ModItems.MAGICKA_TABLET.get());
 

@@ -1,4 +1,7 @@
-// 1.20.1	2023-08-23T22:22:43.8128134	Block Tags
+// 1.20.1	2023-08-24T10:26:29.8571776	Block Tags
+4973798ac20adb4aba55c9f27cf0dabc93e48d28 data/minecraft/tags/blocks/logs_that_burn.json
+4973798ac20adb4aba55c9f27cf0dabc93e48d28 data/minecraft/tags/blocks/mineable/axe.json
 6a23ad8b41e8318e8124e57bb66abfc531228089 data/minecraft/tags/blocks/mineable/pickaxe.json
 e1b5747893a5dfc27415dff177c0b8e49e74878c data/minecraft/tags/blocks/needs_diamond_tool.json
 b75fe94ffe607db3247e247a48f0eacf6dcb94bd data/minecraft/tags/blocks/needs_iron_tool.json
+f6858034e23bff450503a7f59a2fd303552e56ad data/minecraft/tags/blocks/planks.json

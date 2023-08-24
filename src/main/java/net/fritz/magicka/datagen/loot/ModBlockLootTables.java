@@ -16,11 +16,25 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        this.dropSelf(ModBlocks.MAGICKA_INFUSED_STONE.get());
         this.dropSelf(ModBlocks.MAGICKA_STONE_BRICKS.get());
         this.dropSelf(ModBlocks.ELDRITCH_STONE.get());
 
-        this.add(ModBlocks.ZINC_ORE.get(), block -> createOreDrop(ModBlocks.ZINC_ORE.get(), ModItems.ZINC.get()));
+        this.dropSelf(ModBlocks.SILVERWOOD_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_SILVERWOOD_LOG.get());
+        this.dropSelf(ModBlocks.SILVERWOOD_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_SILVERWOOD_WOOD.get());
+        this.dropSelf(ModBlocks.SILVERWOOD_PLANKS.get());
+        this.dropSelf(ModBlocks.SILVERWOOD_SAPLING.get());
+
+        this.add(ModBlocks.SILVERWOOD_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.SILVERWOOD_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+
+        this.add(ModBlocks.ZINC_ORE.get(), block ->
+                createOreDrop(ModBlocks.ZINC_ORE.get(), ModItems.ZINC.get()));
+
+        this.add(ModBlocks.MAGICKA_INFUSED_STONE.get(), block ->
+                createOreDrop(ModBlocks.MAGICKA_INFUSED_STONE.get(), ModItems.MAGICKA_SHARD.get()));
     }
 
     @Override

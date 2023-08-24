@@ -24,6 +24,14 @@
   "block.magicka.zinc_ore": "Zinc Ore",
   "block.magicka.eldritch_stone": "Eldritch Stone",
 
+  "block.magicka.silverwood_sapling": "Silverwood Sapling",
+  "block.magicka.silverwood_leaves": "Silverwood Leaves",
+  "block.magicka.silverwood_planks": "Silverwood Planks",
+  "block.magicka.silverwood_log": "Silverwood Log",
+  "block.magicka.silverwood_wood": "Silverwood Wood",
+  "block.magicka.stripped_silverwood_wood": "Stripped Silverwood Wood",
+  "block.magicka.stripped_silverwood_log": "Stripped Silverwood Log",
+
   "item.magicka.zombie_brain": "Zombie Brain",
 
 "tooltip.magicka.tablettooltip": "§o§5It Hums With A Strange Energy, Glowing Purple As Well",
