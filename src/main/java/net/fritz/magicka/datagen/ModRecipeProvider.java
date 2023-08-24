@@ -82,6 +82,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
 
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGICKA_BLOCK.get())
+                .pattern("XXX")
+                .pattern("XXX")
+                .pattern("XXX")
+                .define('X', ModItems.MAGICKA_INGOT.get())
+                .unlockedBy("has_magicka_ingot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.MAGICKA_INGOT.get()).build()))
+                .save(pWriter);
+
 
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.COPPER_NUGGET.get(), 9)
@@ -97,6 +106,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.NETHERITE_NUGGET.get(), 9)
                 .requires(Items.NETHERITE_INGOT).unlockedBy("has_netherite_ingot",
                         inventoryTrigger(ItemPredicate.Builder.item().of(Items.NETHERITE_INGOT).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ZIRCONIUM.get())
+                .requires(Items.COAL)
+                .requires(ModItems.MAGICKA_SHARD.get())
+                .unlockedBy("has_magicka_shard",
+                        inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.MAGICKA_SHARD.get()).build()))
+                .save(pWriter);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MAGICKA_INGOT.get())
+                .requires(Items.IRON_INGOT)
+                .requires(ModItems.MAGICKA_SHARD.get())
+                .requires(ModItems.ZIRCONIUM.get())
+                .unlockedBy("has_zirconium",
+                        inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.ZIRCONIUM.get()).build()))
                 .save(pWriter);
 
 

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "magicka:magicka_shard"
+    }
+  ],
+  "result": {
+    "item": "magicka:zirconium"
+  }
+}

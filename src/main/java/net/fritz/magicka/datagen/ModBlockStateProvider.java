@@ -24,7 +24,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.MAGICKA_STONE_BRICKS);
         blockWithItem(ModBlocks.ZINC_ORE);
         blockWithItem(ModBlocks.ELDRITCH_STONE);
-
+        blockWithItem(ModBlocks.MAGICKA_BLOCK);
 
         logBlock(((RotatedPillarBlock) ModBlocks.SILVERWOOD_LOG.get()));
 

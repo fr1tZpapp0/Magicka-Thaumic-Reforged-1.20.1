@@ -1,5 +1,6 @@
-// 1.20.1	2023-08-24T10:26:29.860168	Loot Tables
+// 1.20.1	2023-08-24T13:57:42.5238911	Loot Tables
 dc378ce660f3130e91d23a4a91e97a8eb7ad0a85 data/magicka/loot_tables/blocks/eldritch_stone.json
+0ec311acf36564cc39e959cc3cec2f4cb473d0a0 data/magicka/loot_tables/blocks/magicka_block.json
 3050e94ba2d642f96b477f063f19a1f72aa02494 data/magicka/loot_tables/blocks/magicka_infused_stone.json
 a1ce0f943e48aaa0b5848e24f48c70741245ec47 data/magicka/loot_tables/blocks/magicka_stone_bricks.json
 17f0eba58d43e3eb7b41d2f5cafafbf927ecdd5f data/magicka/loot_tables/blocks/silverwood_leaves.json

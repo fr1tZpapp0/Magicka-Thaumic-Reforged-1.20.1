@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-24T10:26:29.8591726	Item Models: magicka
+// 1.20.1	2023-08-24T13:57:42.5109002	Item Models: magicka
 4ac7155998c2d86e057f4190effe87f7757adbf8 assets/magicka/models/item/copper_nugget.json
 dced7f8b401ae30b1ae78be2f1a97cb7e0d21ae1 assets/magicka/models/item/copper_wand_cap.json
 f9c329ce2fd2ae69a201a67ad8ab4b8d7b5d66f7 assets/magicka/models/item/crimson_blade.json
@@ -6,6 +6,7 @@ f9c329ce2fd2ae69a201a67ad8ab4b8d7b5d66f7 assets/magicka/models/item/crimson_blad
 0ac8f510a0fdb259327eeafcb41eaee135e166dc assets/magicka/models/item/diamond_wand_cap.json
 60a1fd57f107916b8ab10c8d0f0382aa5b3e7b26 assets/magicka/models/item/gold_wand_cap.json
 f22309b33dc443218d6192f3fdd2a2f7469d1f41 assets/magicka/models/item/iron_wand_cap.json
+b3f37f3c2c95bdc5b9f41255c3068c4f1685c2d7 assets/magicka/models/item/magicka_ingot.json
 466ea8915deebe6a285a6f9565b580ca346bdd09 assets/magicka/models/item/magicka_shard.json
 f5d1e2b31af58f4461ed41eb4b1c1e241278fad7 assets/magicka/models/item/magicka_tablet.json
 3b05384471fe72f0ef3fec917f73cb5364167bad assets/magicka/models/item/netherite_nugget.json

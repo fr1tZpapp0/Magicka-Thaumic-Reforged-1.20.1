@@ -7,6 +7,7 @@
 
   "item.magicka.zinc": "Zinc",
   "item.magicka.zirconium": "Zirconium",
+  "item.magicka.magicka_ingot": "Magicka Ingot",
 
 
   "item.magicka.crimson_blade": "Crimson Blade",
@@ -23,6 +24,7 @@
   "block.magicka.magicka_stone_bricks": "Magicka Stone Bricks",
   "block.magicka.zinc_ore": "Zinc Ore",
   "block.magicka.eldritch_stone": "Eldritch Stone",
+  "block.magicka.magicka_block": "Block of Magicka",
 
   "block.magicka.silverwood_sapling": "Silverwood Sapling",
   "block.magicka.silverwood_leaves": "Silverwood Leaves",

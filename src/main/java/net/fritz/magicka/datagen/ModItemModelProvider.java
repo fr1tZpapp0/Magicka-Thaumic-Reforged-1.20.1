@@ -22,6 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.COPPER_NUGGET);
         simpleItem(ModItems.DIAMOND_NUGGET);
         simpleItem(ModItems.NETHERITE_NUGGET);
+        simpleItem(ModItems.MAGICKA_INGOT);
 
         simpleItem(ModItems.COPPER_WAND_CAP);
         simpleItem(ModItems.IRON_WAND_CAP);

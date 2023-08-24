@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModItems.ZINC.get());
                         pOutput.accept(ModItems.ZIRCONIUM.get());
+                        pOutput.accept(ModItems.MAGICKA_INGOT.get());
 
                         pOutput.accept(ModItems.DIAMOND_NUGGET.get());
                         pOutput.accept(ModItems.COPPER_NUGGET.get());
@@ -37,6 +38,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.MAGICKA_STONE_BRICKS.get());
                         pOutput.accept(ModBlocks.ZINC_ORE.get());
                         pOutput.accept(ModBlocks.ELDRITCH_STONE.get());
+                        pOutput.accept(ModBlocks.MAGICKA_BLOCK.get());
 
                         pOutput.accept(ModBlocks.SILVERWOOD_SAPLING.get());
                         pOutput.accept(ModBlocks.SILVERWOOD_LEAVES.get());

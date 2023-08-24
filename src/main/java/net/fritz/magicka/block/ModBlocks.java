@@ -36,6 +36,9 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).requiresCorrectToolForDrops()));
 
 
+    public static final RegistryObject<Block> MAGICKA_BLOCK = registerBlock("magicka_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
 
     public static final RegistryObject<Block> SILVERWOOD_LOG = registerBlock("silverwood_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
