@@ -30,6 +30,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DIAMOND_WAND_CAP);
         simpleItem(ModItems.NETHERITE_WAND_CAP);
 
+        simpleItem(ModItems.COPPER_SCHMECKLE);
+        simpleItem(ModItems.GOLD_SCHMECKLE);
+        simpleItem(ModItems.IRON_SCHMECKLE);
+
         simpleItem(ModItems.ZINC);
         simpleHandheldItem(ModItems.CRIMSON_BLADE);
         simpleItem(ModItems.ZOMBIE_BRAIN);

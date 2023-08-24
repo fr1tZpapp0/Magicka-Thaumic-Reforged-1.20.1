@@ -63,6 +63,17 @@ public class ModItems {
     public static final RegistryObject<Item> MAGICKA_INGOT = ITEMS.register("magicka_ingot",
             () -> new Item(new Item.Properties()));
 
+
+    public static final RegistryObject<Item> COPPER_SCHMECKLE = ITEMS.register("copper_schmeckle",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_SCHMECKLE = ITEMS.register("iron_schmeckle",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLD_SCHMECKLE = ITEMS.register("gold_schmeckle",
+            () -> new Item(new Item.Properties()));
+
+
     public static final RegistryObject<Item> ZOMBIE_BRAIN = ITEMS.register("zombie_brain",
             () -> new Item(new Item.Properties().food(ModFoodProperties.ZOMBIE_BRAIN)));
 

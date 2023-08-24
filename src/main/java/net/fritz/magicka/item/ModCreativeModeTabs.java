@@ -23,6 +23,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.ZIRCONIUM.get());
                         pOutput.accept(ModItems.MAGICKA_INGOT.get());
 
+                        pOutput.accept(ModItems.COPPER_SCHMECKLE.get());
+                        pOutput.accept(ModItems.IRON_SCHMECKLE.get());
+                        pOutput.accept(ModItems.GOLD_SCHMECKLE.get());
+
                         pOutput.accept(ModItems.DIAMOND_NUGGET.get());
                         pOutput.accept(ModItems.COPPER_NUGGET.get());
                         pOutput.accept(ModItems.NETHERITE_NUGGET.get());

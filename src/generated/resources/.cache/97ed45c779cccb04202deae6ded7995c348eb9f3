@@ -1,10 +1,13 @@
-// 1.20.1	2023-08-24T13:57:42.5109002	Item Models: magicka
+// 1.20.1	2023-08-24T15:20:30.0519453	Item Models: magicka
 4ac7155998c2d86e057f4190effe87f7757adbf8 assets/magicka/models/item/copper_nugget.json
+58671fb88f84c816910430e48af40d8581f8616a assets/magicka/models/item/copper_schmeckle.json
 dced7f8b401ae30b1ae78be2f1a97cb7e0d21ae1 assets/magicka/models/item/copper_wand_cap.json
 f9c329ce2fd2ae69a201a67ad8ab4b8d7b5d66f7 assets/magicka/models/item/crimson_blade.json
 81bbe22c0400a42d84df41b10edf0dc7a35456d2 assets/magicka/models/item/diamond_nugget.json
 0ac8f510a0fdb259327eeafcb41eaee135e166dc assets/magicka/models/item/diamond_wand_cap.json
+219ba9a3ca237aa6d22ff919f775fc4d35103512 assets/magicka/models/item/gold_schmeckle.json
 60a1fd57f107916b8ab10c8d0f0382aa5b3e7b26 assets/magicka/models/item/gold_wand_cap.json
+7e1166e406e80d6158bed2a890bdcebc3632d75b assets/magicka/models/item/iron_schmeckle.json
 f22309b33dc443218d6192f3fdd2a2f7469d1f41 assets/magicka/models/item/iron_wand_cap.json
 b3f37f3c2c95bdc5b9f41255c3068c4f1685c2d7 assets/magicka/models/item/magicka_ingot.json
 466ea8915deebe6a285a6f9565b580ca346bdd09 assets/magicka/models/item/magicka_shard.json
