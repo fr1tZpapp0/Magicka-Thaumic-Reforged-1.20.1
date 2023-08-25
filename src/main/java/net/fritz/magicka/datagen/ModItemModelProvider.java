@@ -37,6 +37,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ZINC);
         simpleHandheldItem(ModItems.CRIMSON_BLADE);
         simpleItem(ModItems.ZOMBIE_BRAIN);
+        simpleItem(ModItems.EXTRA_MEAT_TREAT);
         simpleItem(ModItems.MAGICKA_TABLET);
         simpleItem(ModItems.ZIRCONIUM);
         simpleItem(ModItems.MAGICKA_SHARD);

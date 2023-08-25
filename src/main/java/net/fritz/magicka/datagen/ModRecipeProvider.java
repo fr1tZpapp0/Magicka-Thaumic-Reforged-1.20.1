@@ -115,6 +115,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         inventoryTrigger(ItemPredicate.Builder.item().of(ModItems.MAGICKA_SHARD.get()).build()))
                 .save(pWriter);
 
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.EXTRA_MEAT_TREAT.get())
+                .requires(Items.COOKED_BEEF)
+                .requires(Items.COOKED_CHICKEN)
+                .requires(Items.COOKED_PORKCHOP)
+                .unlockedBy("has_cooked_beef",
+                        inventoryTrigger(ItemPredicate.Builder.item().of(Items.COOKED_BEEF).build()))
+                .save(pWriter);
+
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MAGICKA_INGOT.get())
                 .requires(Items.IRON_INGOT)
                 .requires(ModItems.MAGICKA_SHARD.get())

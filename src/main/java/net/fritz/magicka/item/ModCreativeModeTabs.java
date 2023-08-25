@@ -56,6 +56,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MAGICKA_TABLET.get());
 
                         pOutput.accept(ModItems.ZOMBIE_BRAIN.get());
+                        pOutput.accept(ModItems.EXTRA_MEAT_TREAT.get());
 
 
 

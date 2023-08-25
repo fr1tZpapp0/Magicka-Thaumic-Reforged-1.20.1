@@ -77,6 +77,9 @@ public class ModItems {
     public static final RegistryObject<Item> ZOMBIE_BRAIN = ITEMS.register("zombie_brain",
             () -> new Item(new Item.Properties().food(ModFoodProperties.ZOMBIE_BRAIN)));
 
+    public static final RegistryObject<Item> EXTRA_MEAT_TREAT = ITEMS.register("extra_meat_treat",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.EXTRA_MEAT_TREAT)));
+
     public static final RegistryObject<Item> ZIRCONIUM = ITEMS.register("zirconium",
             () -> new FuelItem(new Item.Properties(), 200));
 

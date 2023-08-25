@@ -39,7 +39,8 @@
   "block.magicka.stripped_silverwood_log": "Stripped Silverwood Log",
 
   "item.magicka.zombie_brain": "Zombie Brain",
+  "item.magicka.extra_meat_treat": "Extra Meat Treat",
 
-"tooltip.magicka.tablettooltip": "§o§5It Hums With A Strange Energy, Glowing Purple As Well",
+"tooltip.magicka.tablettooltip": "§o §5 It Hums With A Strange Energy, Glowing Purple As Well",
   "creativetab.magicka_tab": "Magicka - Thaumic Reforged"
 }
